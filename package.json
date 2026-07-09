@@ -1,0 +1,16 @@
+{
+  "name": "immer-lodash-isempty-repro",
+  "version": "1.0.0",
+  "description": "Minimal reproduction: lodash.isEmpty on an Immer draft throws a Proxy invariant TypeError since immer 11.1.9",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "repro": "node repro.js",
+    "probe": "node probe.js"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "2.12.0",
+    "immer": "11.1.11",
+    "lodash": "^4.18.1"
+  }
+}
